@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+.container,
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 15rem;
+  border: solid, 1.5px, rgb(15, 14, 14);
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(15, 14, 14);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(15, 14, 14);
+  animation: rainbow 1s linear infinite;
+  border: none;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* li goes here */
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  16% {
+    color: orange;
+  }
+  33% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  83% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
