@@ -48,6 +48,13 @@ ul {
 }
 
 /* li goes here */
+li {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ margin: 5px;
+}
 
 @keyframes rainbow {
   0% {
